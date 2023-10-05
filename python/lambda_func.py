@@ -78,8 +78,8 @@ def spotify_API_conn(client_id, client_secret):
 
 def lambda_handler(event, context):
         
-        client_id = '1fb737886c074f8e9f4cdc5cc08a36f9'
-        client_secret = 'a9ba5761b57e466cbb3decff00c8eefc'
+        client_id = 'your credentials'
+        client_secret = 'your credentials'
         bucket_name = 'spotify-data-weekly'
         s3_key = f'/weekly_data/spotify_{datetime.now().strftime("%m_%d_%y")}.csv'
         sp = spotify_API_conn(client_id,client_secret)

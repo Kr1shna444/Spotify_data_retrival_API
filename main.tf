@@ -1,6 +1,6 @@
 provider "aws" {
   region                   = "us-east-2"
-  shared_credentials_files = ["/Users/krushna.gadekar/.aws/credentials"]
+  shared_credentials_files = ["/Users/user.name/.aws/credentials"]
 }
 
 resource "aws_iam_role" "lambda_role" {
